@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5FAF0531DED7F7300532976 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FAF0521DED7F7300532976 /* AppDelegate.swift */; };
+		B5FAF0551DED7F7300532976 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FAF0541DED7F7300532976 /* ViewController.swift */; };
+		B5FAF0581DED7F7300532976 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5FAF0561DED7F7300532976 /* Main.storyboard */; };
+		B5FAF05A1DED7F7300532976 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5FAF0591DED7F7300532976 /* Assets.xcassets */; };
+		B5FAF05D1DED7F7300532976 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5FAF05B1DED7F7300532976 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B5FAF04F1DED7F7300532976 /* MFMail Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MFMail Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5FAF0521DED7F7300532976 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B5FAF0541DED7F7300532976 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B5FAF0571DED7F7300532976 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B5FAF0591DED7F7300532976 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5FAF05C1DED7F7300532976 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B5FAF05E1DED7F7300532976 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5FAF04C1DED7F7300532976 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5FAF0461DED7F7300532976 = {
+			isa = PBXGroup;
+			children = (
+				B5FAF0511DED7F7300532976 /* MFMail Test */,
+				B5FAF0501DED7F7300532976 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5FAF0501DED7F7300532976 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5FAF04F1DED7F7300532976 /* MFMail Test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5FAF0511DED7F7300532976 /* MFMail Test */ = {
+			isa = PBXGroup;
+			children = (
+				B5FAF0521DED7F7300532976 /* AppDelegate.swift */,
+				B5FAF0541DED7F7300532976 /* ViewController.swift */,
+				B5FAF0561DED7F7300532976 /* Main.storyboard */,
+				B5FAF0591DED7F7300532976 /* Assets.xcassets */,
+				B5FAF05B1DED7F7300532976 /* LaunchScreen.storyboard */,
+				B5FAF05E1DED7F7300532976 /* Info.plist */,
+			);
+			path = "MFMail Test";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5FAF04E1DED7F7300532976 /* MFMail Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5FAF0611DED7F7300532976 /* Build configuration list for PBXNativeTarget "MFMail Test" */;
+			buildPhases = (
+				B5FAF04B1DED7F7300532976 /* Sources */,
+				B5FAF04C1DED7F7300532976 /* Frameworks */,
+				B5FAF04D1DED7F7300532976 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MFMail Test";
+			productName = "MFMail Test";
+			productReference = B5FAF04F1DED7F7300532976 /* MFMail Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5FAF0471DED7F7300532976 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Ben Sullivan";
+				TargetAttributes = {
+					B5FAF04E1DED7F7300532976 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 2KVYSWMVXX;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B5FAF04A1DED7F7300532976 /* Build configuration list for PBXProject "MFMail Test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5FAF0461DED7F7300532976;
+			productRefGroup = B5FAF0501DED7F7300532976 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5FAF04E1DED7F7300532976 /* MFMail Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5FAF04D1DED7F7300532976 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5FAF05D1DED7F7300532976 /* LaunchScreen.storyboard in Resources */,
+				B5FAF05A1DED7F7300532976 /* Assets.xcassets in Resources */,
+				B5FAF0581DED7F7300532976 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5FAF04B1DED7F7300532976 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5FAF0551DED7F7300532976 /* ViewController.swift in Sources */,
+				B5FAF0531DED7F7300532976 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B5FAF0561DED7F7300532976 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5FAF0571DED7F7300532976 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B5FAF05B1DED7F7300532976 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5FAF05C1DED7F7300532976 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5FAF05F1DED7F7300532976 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B5FAF0601DED7F7300532976 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5FAF0621DED7F7300532976 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2KVYSWMVXX;
+				INFOPLIST_FILE = "MFMail Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sullivan-Applications.MFMail-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B5FAF0631DED7F7300532976 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2KVYSWMVXX;
+				INFOPLIST_FILE = "MFMail Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sullivan-Applications.MFMail-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5FAF04A1DED7F7300532976 /* Build configuration list for PBXProject "MFMail Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5FAF05F1DED7F7300532976 /* Debug */,
+				B5FAF0601DED7F7300532976 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5FAF0611DED7F7300532976 /* Build configuration list for PBXNativeTarget "MFMail Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5FAF0621DED7F7300532976 /* Debug */,
+				B5FAF0631DED7F7300532976 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5FAF0471DED7F7300532976 /* Project object */;
+}
